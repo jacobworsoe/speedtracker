@@ -45,8 +45,7 @@ class Chart extends React.Component {
         borderColor: Utils.getColor(metric.color, 1),
         borderWidth: 1,
         data: values,
-        label: metric.name,
-        lineTension: 0.6,
+        label: metric.name,        
         pointHoverRadius: 10,
         pointHitRadius: 10,
         pointRadius: 5
