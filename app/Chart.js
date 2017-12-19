@@ -116,7 +116,8 @@ class Chart extends React.Component {
           yAxes: [{
             ticks: {
               beginAtZero: true,
-              max: this.props.maxValue
+              max: this.props.maxValue,
+              stacked: true
             },
             scaleLabel: {
               display: (this.props.yLabel !== undefined),
